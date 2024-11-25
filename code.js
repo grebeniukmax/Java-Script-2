@@ -1,13 +1,13 @@
 "use strict"
 // Перше //
 const farengeyt = 15 ;
-const celsius = ( farengeyt * 1/8 ) + 32 ;
+const celsius = ( farengeyt - 32 ) * 5 / 9 ;
 console.log(celsius) ;
 
 // Друге //
 const daysInMonth = 30 ;
 const hoursInMonth = daysInMonth * 24 ;
-const minutesInMonth = daysInMonth * 60 ;
+const minutesInMonth = hoursInMonth * 60 ;
 console.log(hoursInMonth) ;
 console.log(minutesInMonth) ;
 
@@ -48,6 +48,6 @@ const stringNumber = "666";
 const normalNumber = parseInt(stringNumber);
 console.log(normalNumber);
 
-const numberNumber = "100";
-const numberNumberNumber = toString(numberNumber);
+const numberNumber = 100 ;
+const numberNumberNumber = numberNumber.toString();
 console.log(numberNumberNumber);
